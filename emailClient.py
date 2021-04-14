@@ -1,3 +1,5 @@
+## Creted by Pratham Patel, April 12, 2021
+
 #import statements
 import smtplib
 from socket import gaierror
@@ -47,7 +49,7 @@ def message_creator(person, rec_email, subject):
     #HTML signature (personalized)
 
     html = """\
-    
+
     """.format(person)
 
     # Record the MIME types of both parts - text/plain and text/html.
