@@ -3,17 +3,17 @@
 ### Pre-usage instructions ###
 
 1. Compile a list of email addresses that you would like to send an email to
-  - Be sure to have the email address on the left column and the name on the right
-  - Check the spacing between the email and names
-  - Export the file as a CSV
+  * Be sure to have the email address on the left column and the name on the right
+  * Check the spacing between the email and names
+  * Export the file as a CSV
 
 2. Make sure your gmail account is set to allow for un-safe applications to access it
-  - This is in order to make sure that this client can access your email and send the emails
-  - You can access that site and turn it on [here](https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4O58MFMjNVIKVEKaC111KA9L7cS9HSwvjSQY2cWjhFXBpv1nPrm99gWIG7A9jL7cpQp5I7SGoQNxDSNFRelflBjGluXDA)
+  * This is in order to make sure that this client can access your email and send the emails
+  * You can access that site and turn it on [here](https://myaccount.google.com/lesssecureapps?pli=1&rapt=AEjHL4O58MFMjNVIKVEKaC111KA9L7cS9HSwvjSQY2cWjhFXBpv1nPrm99gWIG7A9jL7cpQp5I7SGoQNxDSNFRelflBjGluXDA)
 3. Make sure all of your files are in the proper directory
-  - CSV file should be in the same folder as the rest of this project
+  * CSV file should be in the same folder as the rest of this project
 4. Edit/add your message in basic HTML with the person variable in {}
-  - e.g. "<html lang="en" dir="ltr">
+  * e.g. "<html lang="en" dir="ltr">
       \<head>\</head>
 
         \<body>
