@@ -1,4 +1,4 @@
-## Creted by Pratham Patel, April 12, 2021
+## Created by Pratham Patel, April 12, 2021
 
 #import statements
 import smtplib
