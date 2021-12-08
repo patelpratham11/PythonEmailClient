@@ -1,5 +1,3 @@
-## Created by Pratham Patel, April 12, 2021
-
 #import statements
 import smtplib
 from socket import gaierror
@@ -31,7 +29,7 @@ def loader():
     for email in full_list:
         rec_email = email
         person = full_list[email]
-        message_creator(person, rec_email)
+        message_creator(person, rec_email, subject)
 
 #creates the personalized message
 def message_creator(person, rec_email, subject):
@@ -39,7 +37,7 @@ def message_creator(person, rec_email, subject):
     # message['Subject'] = 'Python Emailer Client'
     # message['From'] = sender_email
     # message['To'] = rec_email
-    # message.set_content('Welcome to Python Emailer client, Dear {}, \nWe appreciate your time and effort in considering us.'.format(person))
+    #message.set_content('Welcome to Python Emailer client, Dear {}, \nWe appreciate your time and effort in considering us.'.format(person))
 
     msg = MIMEMultipart('alternative')
     msg['Subject'] = subject
@@ -48,7 +46,13 @@ def message_creator(person, rec_email, subject):
 
     #HTML signature (personalized)
 
-    html = """\
+    html = """
+    <html lang="en" dir="ltr">
+        #insert HTML code here
+
+        # be sure to include "dear {}" or something like that here
+      </html>
+
 
     """.format(person)
 
